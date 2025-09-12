@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\TaskManager.Model\TaskManager.Model.csproj"/>
+        <ProjectReference Include="..\TaskManager.Persistence.Json\TaskManager.Persistence.Json.csproj"/>
+    </ItemGroup>
+</Project>

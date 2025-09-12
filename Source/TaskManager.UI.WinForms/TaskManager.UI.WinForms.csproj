@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+    <PropertyGroup>
+        <TargetFramework>net9.0-windows</TargetFramework>
+        <UseWindowsForms>true</UseWindowsForms>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <OutputType>WinExe</OutputType>
+        <NoWarn>NETSDK1137</NoWarn>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\TaskManager.Business\TaskManager.Business.csproj"/>
+        <ProjectReference Include="..\TaskManager.Persistence.Json\TaskManager.Persistence.Json.csproj"/>
+        <ProjectReference Include="..\TaskManager.Model\TaskManager.Model.csproj"/>
+    </ItemGroup>
+</Project>

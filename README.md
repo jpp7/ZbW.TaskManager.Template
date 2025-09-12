@@ -1,0 +1,1 @@
+# ZbW.TaskManager.Template
